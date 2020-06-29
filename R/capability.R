@@ -160,6 +160,18 @@ print.processCapability <- function(x, digits = getOption("digits"), ...)
 summary.processCapability <- function(object, ...) 
   print.processCapability(object, ...)
 
+gg.plot.processCapability <- function(x, 
+                                      add.stats = qcc.options("add.stats"),
+                                      breaks = "scott", 
+                                      col = adjustcolor(qcc.options("zones")$fill, alpha.f = 0.5), 
+                                      border = "white",
+                                      title, xlab,
+                                      digits = getOption("digits"),
+                                      restore.par = TRUE, ...) 
+{
+  
+}
+
 plot.processCapability <- function(x, 
                                    add.stats = qcc.options("add.stats"),
                                    breaks = "scott", 

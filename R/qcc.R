@@ -272,6 +272,18 @@ print.qcc <- function(x, digits = getOption("digits"), ...)
 
 summary.qcc <- function(object, ...) print.qcc(object, ...)
 
+gg.plot.qcc <- function(x, 
+                        add.stats = qcc.options("add.stats"), 
+                        chart.all = qcc.options("chart.all"), 
+                        fill = qcc.options("fill"),
+                        label.center = "CL",
+                        label.limits = c("LCL ", "UCL"), 
+                        title, xlab, ylab, ylim, axes.las = 0,
+                        digits = getOption("digits"),
+                        restore.par = TRUE, ...) 
+{
+  
+}
 
 plot.qcc <- function(x, 
                      add.stats = qcc.options("add.stats"), 

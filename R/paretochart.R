@@ -39,6 +39,18 @@ print.paretoChart <- function(x, digits = getOption("digits") - 3, ...)
   print(object$tab, digits = digits, ...)
 }
 
+gg.plot.paretoChart <- function(x, xlab = NULL, 
+                                ylab = "Frequency", 
+                                ylab2 = "Cumulative Percentage", 
+                                cumperc = seq(0, 100, by = 25), 
+                                ylim = NULL, 
+                                main = NULL, 
+                                col = blues.colors(nlevels), 
+                                ...)
+{
+  
+}
+
 plot.paretoChart <- function(x, xlab = NULL, 
                              ylab = "Frequency", 
                              ylab2 = "Cumulative Percentage", 

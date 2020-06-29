@@ -208,6 +208,19 @@ print.mqcc <- function(x, digits = getOption("digits"), ...)
 
 summary.mqcc <- function(object, ...) print.mqcc(object, ...)
 
+gg.plot.mqcc <- function(x, 
+                         add.stats = qcc.options("add.stats"), 
+                         chart.all = qcc.options("chart.all"), 
+                         fill = qcc.options("fill"),
+                         label.limits = c("LCL", "UCL"),
+                         label.pred.limits = c("LPL", "UPL"),
+                         title, xlab, ylab, ylim, axes.las = 0,
+                         digits = getOption("digits"),
+                         restore.par = TRUE, ...) 
+{
+  
+}
+
 plot.mqcc <- function(x, 
                       add.stats = qcc.options("add.stats"), 
                       chart.all = qcc.options("chart.all"), 
