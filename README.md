@@ -51,6 +51,10 @@ vignette("qcc")
 
 or through the GitHub web page of the package at <https://luca-scr.github.io/qcc/>.
 
+## ggplot2
+
+Added a plotting interface to generate ggplot2 graphs.
+
 ## References
 
 Montgomery, D.C. (2009) *Introduction to Statistical Quality Control*, 6th ed. New York: John Wiley & Sons.
